@@ -60,12 +60,17 @@ It includes **JWT-based authentication** and **Role-Based Access Control (RBAC)*
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/ticket-management-system.git
+git clone https://github.com/sujal-khatke/Ticket-Management-System.git
 cd ticket-management-system
 
 # 2. Install dependencies
 npm install
 
-# 3. Create .env file and configure
+# 3. Run Command
+npm run dev
+
+# API documentation 🔗 
+https://documenter.getpostman.com/view/38645507/2sB2cd6Jf9
+
 
 
