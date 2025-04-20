@@ -6,9 +6,9 @@ const generateToken = (id) => {
 };
 
 export const register = async (req, res) => {
-    const { username, email, password, role = "user" } = req.body; // <-- role added with default
+    const { username, email, password, role = "user" } = req.body; 
     try {
-      const user = await User.create({ username, email, password, role }); // <-- pass role
+      const user = await User.create({ username, email, password, role }); 
       const token = generateToken(user._id);
       res.status(201).json({ message: "User registered successfully", token, user });
     } catch (err) {
